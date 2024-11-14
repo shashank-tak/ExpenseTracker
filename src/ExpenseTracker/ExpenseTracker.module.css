@@ -1,0 +1,82 @@
+.ExpenseClass{
+    height: 100%;
+}
+
+.ExpenseTracker{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    background-color: #585858;
+    padding: 20px;
+    border-radius: 10px;
+    height: 90%;
+    gap: 50px;
+}
+
+
+
+.Wallet, .Expense, .Chart{
+    width: 25%
+}
+
+.Wallet, .Expense{
+    background-color: #818181;
+    border-radius: 10px;
+    display: flex;   
+    flex-direction: column;          
+    justify-content: center;   
+    align-items: center;   
+
+}
+
+/* .Chart{
+    background-color: #9B9B9B;
+    border-radius: 10px;
+} */
+
+.Incomebtn, .Expensebtn{
+    border-radius: 10px;
+    color: white;
+    width: 50%;
+    border-style: hidden;
+}
+
+.Incomebtn{
+    background: linear-gradient(to left, #15fd00, #92fc4c);
+}
+
+/* Blur effect for the background */
+.blurredBackground {
+    filter:brightness(30%);
+    pointer-events: none; /* Prevent interactions with the background */
+    height: 100%;
+  }
+  
+  /* Modal overlay styling */
+  .modalOverlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 999; /* Higher z-index to overlay other elements */
+  }
+  
+  .modalContent {
+    background: rgb(226, 224, 224);
+    padding: 20px;
+    border-radius: 8px;
+    z-index: 1000; /* Ensures the modal is above the overlay */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    text-align: left;
+  }
+  
+
+.Expensebtn{
+    background: linear-gradient(to left, #f73333, #f36868);
+}
+

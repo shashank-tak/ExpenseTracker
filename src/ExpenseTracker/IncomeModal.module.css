@@ -1,0 +1,18 @@
+.BalanceItems{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.InputBox{
+    padding: 10px;
+}
+
+.Addbtn{
+    background: linear-gradient(to left, #f7890b, #f59e1b);
+    color: white;
+}
+
+.Cancelbtn{
+    background-color: #bdbcb9;
+}

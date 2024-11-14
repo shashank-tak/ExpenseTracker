@@ -1,0 +1,10 @@
+.ContentArea
+{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+}
+
+.HeroSection{
+    height: 40%;
+}
